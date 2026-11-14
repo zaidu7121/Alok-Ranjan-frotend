@@ -1,5 +1,5 @@
-﻿import { ArrowRight } from "lucide-react";
-"use client";
+﻿"use client";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useReducedMotion } from "framer-motion";
 import { Swiper,SwiperSlide } from "swiper/react";
@@ -105,6 +105,8 @@ function CarouselSection({title,eyebrow,items,href}:{title:string;eyebrow:string
 }
 export function PublicationsSection({items}:{items:Publication[]}) { return <CarouselSection title="Ideas, analysis and publications" eyebrow="KNOWLEDGE" items={items} href="/publications"/>; }
 export function NewsSection({items}:{items:NewsItem[]}) { return <CarouselSection title="Updates and appearances" eyebrow="NEWS AND MEDIA" items={items} href="/news"/>; }
+
+
 
 
 
