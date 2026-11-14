@@ -1,0 +1,3 @@
+import {notFound} from "next/navigation";import {getSiteSettings} from "@/lib/api";import legal from "@/data/legal-pages.json";import {SiteShell} from "@/components/site-shell";import {PageIntro} from "@/components/ui";
+export function generateStaticParams(){return [{legal:"privacy-policy"},{legal:"terms"}]}
+export default async function LegalPage({params}:{params:{legal:string}}){const item=legal.find(x=>x.slug===params.legal);if(!item)notFound();const s=await getSiteSettings();return <SiteShell settings={s}><PageIntro eyebrow="INFORMATION" title={item.title}/><div className="content-wrap max-w-4xl"><p className="detail-copy">{item.body}</p></div></SiteShell>}

@@ -1,0 +1,28 @@
+{
+  "_id": "settings-main",
+  "name": "Alok Ranjan",
+  "tagline": "[REPLACE: Your professional tagline]",
+  "email": "[REPLACE: your.email@example.com]",
+  "phone": "[REPLACE: +91 XXXXX XXXXX]",
+  "linkedin": "[REPLACE: https://www.linkedin.com/in/your-profile/]",
+  "city": "[REPLACE: Patna / New Delhi / your practice city]",
+  "profilePdf": "/profile/alok-ranjan-profile.pdf",
+  "logoText": "AR",
+  "intro": "Intellectual property law, research and strategy. A considered approach to protecting ideas, brands and creative work.",
+  "heroTitle": "Thoughtful counsel for ideas that matter.",
+  "heroSubtitle": "Intellectual property law | India",
+  "heroImage": {
+    "url": "/images/hero-architecture.svg",
+    "alt": "Abstract architectural lines and light in a contemporary legal setting"
+  },
+  "portrait": {
+    "url": "/images/portrait-placeholder.svg",
+    "alt": "Portrait placeholder for Alok Ranjan"
+  },
+  "seo": {
+    "title": "Alok Ranjan | Intellectual Property Lawyer",
+    "description": "Alok Ranjan is an India-based early-career intellectual property lawyer focused on trademarks, patents, copyright and emerging IP issues.",
+    "image": "/images/hero-architecture.svg"
+  },
+  "createdAt": "2026-01-01T00:00:00.000Z"
+}

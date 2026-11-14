@@ -1,0 +1,116 @@
+[
+  {
+    "_id": "news-1",
+    "slug": "personality-rights-ai-research",
+    "title": "Research contribution on personality rights and AI",
+    "category": "Publication",
+    "description": "Co-authored a blog examining personality rights and artificial intelligence, published through CPLAN, NUSRL Ranchi.",
+    "date": "2025-09-12",
+    "status": "published",
+    "order": 1,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Research contribution on personality rights and AI"
+    },
+    "seo": {
+      "title": "Research contribution on personality rights and AI | Alok Ranjan",
+      "description": "Co-authored a blog examining personality rights and artificial intelligence, published through CPLAN, NUSRL Ranchi."
+    },
+    "createdAt": "2025-09-12T00:00:00.000Z"
+  },
+  {
+    "_id": "news-2",
+    "slug": "ip-research-practice",
+    "title": "IP research and practice development",
+    "category": "Professional update",
+    "description": "Continuing research across trademark prosecution, search analysis and emerging intellectual property questions.",
+    "date": "2025-07-04",
+    "status": "published",
+    "order": 2,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for IP research and practice development"
+    },
+    "seo": {
+      "title": "IP research and practice development | Alok Ranjan",
+      "description": "Continuing research across trademark prosecution, search analysis and emerging intellectual property questions."
+    },
+    "createdAt": "2025-07-04T00:00:00.000Z"
+  },
+  {
+    "_id": "news-3",
+    "slug": "sep-licensing-research",
+    "title": "Exploring standard essential patent licensing",
+    "category": "Research",
+    "description": "A research update focused on SEP licensing, FRAND principles and current developments in technology standards.",
+    "date": "2025-05-22",
+    "status": "published",
+    "order": 3,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Exploring standard essential patent licensing"
+    },
+    "seo": {
+      "title": "Exploring standard essential patent licensing | Alok Ranjan",
+      "description": "A research update focused on SEP licensing, FRAND principles and current developments in technology standards."
+    },
+    "createdAt": "2025-05-22T00:00:00.000Z"
+  },
+  {
+    "_id": "news-4",
+    "slug": "ip-mediation-research",
+    "title": "IP mediation research",
+    "category": "Research",
+    "description": "Examining mediation as a practical dispute resolution process in intellectual property matters.",
+    "date": "2025-02-15",
+    "status": "published",
+    "order": 4,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for IP mediation research"
+    },
+    "seo": {
+      "title": "IP mediation research | Alok Ranjan",
+      "description": "Examining mediation as a practical dispute resolution process in intellectual property matters."
+    },
+    "createdAt": "2025-02-15T00:00:00.000Z"
+  },
+  {
+    "_id": "news-5",
+    "slug": "ip-professional-development",
+    "title": "Professional development in intellectual property",
+    "category": "Professional update",
+    "description": "Building on practical exposure to trademark prosecution, search analysis and legal research through internships.",
+    "date": "2024-11-11",
+    "status": "published",
+    "order": 5,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Professional development in intellectual property"
+    },
+    "seo": {
+      "title": "Professional development in intellectual property | Alok Ranjan",
+      "description": "Building on practical exposure to trademark prosecution, search analysis and legal research through internships."
+    },
+    "createdAt": "2024-11-11T00:00:00.000Z"
+  },
+  {
+    "_id": "news-6",
+    "slug": "ai-accountability-research",
+    "title": "Research on AI accountability",
+    "category": "Research",
+    "description": "Continuing research into questions of accountability, authorship and rights arising from AI-assisted creation.",
+    "date": "2024-07-30",
+    "status": "published",
+    "order": 6,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Research on AI accountability"
+    },
+    "seo": {
+      "title": "Research on AI accountability | Alok Ranjan",
+      "description": "Continuing research into questions of accountability, authorship and rights arising from AI-assisted creation."
+    },
+    "createdAt": "2024-07-30T00:00:00.000Z"
+  }
+]

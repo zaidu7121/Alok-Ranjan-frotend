@@ -1,0 +1,211 @@
+[
+  {
+    "_id": "exp-1",
+    "slug": "trademarks",
+    "title": "Trademarks",
+    "description": "Trademark clearance, prosecution and portfolio support, from search analysis to brand protection.",
+    "scope": "Search strategy, registrability analysis, filing support and prosecution.",
+    "icon": "Scale",
+    "status": "published",
+    "order": 1,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for Trademarks"
+    },
+    "seo": {
+      "title": "Trademarks | Alok Ranjan",
+      "description": "Trademark clearance, prosecution and portfolio support, from search analysis to brand protection."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-2",
+    "slug": "patents",
+    "title": "Patents",
+    "description": "Patent research and support across the lifecycle of technical innovation.",
+    "scope": "Prior-art research, patent landscape review and prosecution support.",
+    "icon": "Search",
+    "status": "published",
+    "order": 2,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for Patents"
+    },
+    "seo": {
+      "title": "Patents | Alok Ranjan",
+      "description": "Patent research and support across the lifecycle of technical innovation."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-3",
+    "slug": "copyright",
+    "title": "Copyright",
+    "description": "Copyright questions involving original works, ownership, licensing and use.",
+    "scope": "Copyright research, ownership analysis, licensing and enforcement.",
+    "icon": "FileText",
+    "status": "published",
+    "order": 3,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for Copyright"
+    },
+    "seo": {
+      "title": "Copyright | Alok Ranjan",
+      "description": "Copyright questions involving original works, ownership, licensing and use."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-4",
+    "slug": "designs",
+    "title": "Industrial Designs",
+    "description": "Protection of product appearance, visual features and design-led differentiation.",
+    "scope": "Design searches, filing support and portfolio review.",
+    "icon": "PenTool",
+    "status": "published",
+    "order": 4,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for Industrial Designs"
+    },
+    "seo": {
+      "title": "Industrial Designs | Alok Ranjan",
+      "description": "Protection of product appearance, visual features and design-led differentiation."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-5",
+    "slug": "standard-essential-patents",
+    "title": "Standard Essential Patents",
+    "description": "Research on standards, FRAND commitments and licensing frameworks.",
+    "scope": "SEP landscape research, licensing analysis and policy developments.",
+    "icon": "Network",
+    "status": "published",
+    "order": 5,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for Standard Essential Patents"
+    },
+    "seo": {
+      "title": "Standard Essential Patents | Alok Ranjan",
+      "description": "Research on standards, FRAND commitments and licensing frameworks."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-6",
+    "slug": "personality-rights",
+    "title": "Personality Rights",
+    "description": "Legal issues around identity, image, voice and commercial appropriation.",
+    "scope": "Research and analysis concerning publicity and personality rights.",
+    "icon": "UserRound",
+    "status": "published",
+    "order": 6,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for Personality Rights"
+    },
+    "seo": {
+      "title": "Personality Rights | Alok Ranjan",
+      "description": "Legal issues around identity, image, voice and commercial appropriation."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-7",
+    "slug": "ai-and-ip",
+    "title": "AI and Intellectual Property",
+    "description": "The impact of artificial intelligence on authorship, ownership and accountability.",
+    "scope": "Research on training data, generated works and responsible AI practices.",
+    "icon": "BrainCircuit",
+    "status": "published",
+    "order": 7,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for AI and Intellectual Property"
+    },
+    "seo": {
+      "title": "AI and Intellectual Property | Alok Ranjan",
+      "description": "The impact of artificial intelligence on authorship, ownership and accountability."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-8",
+    "slug": "ip-mediation",
+    "title": "IP Mediation",
+    "description": "Structured approaches to resolving intellectual property disputes.",
+    "scope": "Issue mapping, negotiation preparation and mediation research.",
+    "icon": "Handshake",
+    "status": "published",
+    "order": 8,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for IP Mediation"
+    },
+    "seo": {
+      "title": "IP Mediation | Alok Ranjan",
+      "description": "Structured approaches to resolving intellectual property disputes."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-9",
+    "slug": "ip-licensing",
+    "title": "IP Licensing",
+    "description": "Commercial arrangements for the use and transfer of intellectual property.",
+    "scope": "Licence review support, rights mapping and key-term analysis.",
+    "icon": "FileSignature",
+    "status": "published",
+    "order": 9,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for IP Licensing"
+    },
+    "seo": {
+      "title": "IP Licensing | Alok Ranjan",
+      "description": "Commercial arrangements for the use and transfer of intellectual property."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-10",
+    "slug": "ip-due-diligence",
+    "title": "IP Due Diligence",
+    "description": "Review of intellectual property assets, ownership records and risk indicators.",
+    "scope": "Asset inventories, chain-of-title review and transaction support.",
+    "icon": "ClipboardCheck",
+    "status": "published",
+    "order": 10,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for IP Due Diligence"
+    },
+    "seo": {
+      "title": "IP Due Diligence | Alok Ranjan",
+      "description": "Review of intellectual property assets, ownership records and risk indicators."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "exp-11",
+    "slug": "brand-protection",
+    "title": "Brand Protection and Enforcement",
+    "description": "Practical research and support against misuse, counterfeiting and infringement.",
+    "scope": "Online monitoring research, evidence organisation and enforcement strategy.",
+    "icon": "ShieldCheck",
+    "status": "published",
+    "order": 11,
+    "image": {
+      "url": "/images/expertise.svg",
+      "alt": "Abstract illustration for Brand Protection and Enforcement"
+    },
+    "seo": {
+      "title": "Brand Protection and Enforcement | Alok Ranjan",
+      "description": "Practical research and support against misuse, counterfeiting and infringement."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  }
+]

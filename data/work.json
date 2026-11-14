@@ -1,0 +1,116 @@
+[
+  {
+    "_id": "work-1",
+    "slug": "trademark-clearance-review",
+    "title": "Trademark search and clearance review",
+    "label": "Representative matter",
+    "description": "A structured review of proposed marks across relevant classes, including similarity analysis and a concise risk note.",
+    "category": "Trademark",
+    "status": "published",
+    "order": 1,
+    "image": {
+      "url": "/images/work-trademark.svg",
+      "alt": "Abstract illustration for Trademark search and clearance review"
+    },
+    "seo": {
+      "title": "Trademark search and clearance review | Alok Ranjan",
+      "description": "A structured review of proposed marks across relevant classes, including similarity analysis and a concise risk note."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "work-2",
+    "slug": "trademark-prosecution-support",
+    "title": "Trademark prosecution support",
+    "label": "Representative matter",
+    "description": "Prepared prosecution research and draft responses addressing examination objections and supporting materials.",
+    "category": "Prosecution",
+    "status": "published",
+    "order": 2,
+    "image": {
+      "url": "/images/work-documents.svg",
+      "alt": "Abstract illustration for Trademark prosecution support"
+    },
+    "seo": {
+      "title": "Trademark prosecution support | Alok Ranjan",
+      "description": "Prepared prosecution research and draft responses addressing examination objections and supporting materials."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "work-3",
+    "slug": "ip-portfolio-review",
+    "title": "IP portfolio and ownership review",
+    "label": "Representative matter",
+    "description": "Mapped a sample IP portfolio against available registrations, ownership records and renewal information.",
+    "category": "Due diligence",
+    "status": "published",
+    "order": 3,
+    "image": {
+      "url": "/images/work-portfolio.svg",
+      "alt": "Abstract illustration for IP portfolio and ownership review"
+    },
+    "seo": {
+      "title": "IP portfolio and ownership review | Alok Ranjan",
+      "description": "Mapped a sample IP portfolio against available registrations, ownership records and renewal information."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "work-4",
+    "slug": "sep-research-note",
+    "title": "SEP research note",
+    "label": "Representative matter",
+    "description": "Researched standard essential patent licensing questions, with attention to FRAND principles and current debate.",
+    "category": "Research",
+    "status": "published",
+    "order": 4,
+    "image": {
+      "url": "/images/work-research.svg",
+      "alt": "Abstract illustration for SEP research note"
+    },
+    "seo": {
+      "title": "SEP research note | Alok Ranjan",
+      "description": "Researched standard essential patent licensing questions, with attention to FRAND principles and current debate."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "work-5",
+    "slug": "copyright-digital-content",
+    "title": "Copyright and digital content analysis",
+    "label": "Representative matter",
+    "description": "Analysed ownership and permitted-use questions for a hypothetical digital content workflow.",
+    "category": "Copyright",
+    "status": "published",
+    "order": 5,
+    "image": {
+      "url": "/images/work-copyright.svg",
+      "alt": "Abstract illustration for Copyright and digital content analysis"
+    },
+    "seo": {
+      "title": "Copyright and digital content analysis | Alok Ranjan",
+      "description": "Analysed ownership and permitted-use questions for a hypothetical digital content workflow."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "work-6",
+    "slug": "brand-enforcement-research",
+    "title": "Brand enforcement research",
+    "label": "Representative matter",
+    "description": "Organised public-domain evidence and legal research for a hypothetical online brand misuse scenario.",
+    "category": "Enforcement",
+    "status": "published",
+    "order": 6,
+    "image": {
+      "url": "/images/work-brand.svg",
+      "alt": "Abstract illustration for Brand enforcement research"
+    },
+    "seo": {
+      "title": "Brand enforcement research | Alok Ranjan",
+      "description": "Organised public-domain evidence and legal research for a hypothetical online brand misuse scenario."
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  }
+]

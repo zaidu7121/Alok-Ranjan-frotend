@@ -1,0 +1,116 @@
+[
+  {
+    "_id": "publication-1",
+    "slug": "personality-rights-ai",
+    "title": "Personality rights and artificial intelligence",
+    "category": "AI and IP",
+    "description": "A research-led discussion of identity, synthetic media and the legal questions raised by AI systems. Co-authored blog, CPLAN, NUSRL Ranchi.",
+    "date": "2025-09-12",
+    "status": "published",
+    "order": 1,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Personality rights and artificial intelligence"
+    },
+    "seo": {
+      "title": "Personality rights and artificial intelligence | Alok Ranjan",
+      "description": "A research-led discussion of identity, synthetic media and the legal questions raised by AI systems. Co-authored blog, CPLAN, NUSRL Ranchi."
+    },
+    "createdAt": "2025-09-12T00:00:00.000Z"
+  },
+  {
+    "_id": "publication-2",
+    "slug": "sep-frand-licensing",
+    "title": "Standard essential patents and FRAND licensing",
+    "category": "Patents",
+    "description": "A concise research overview of SEP licensing principles, FRAND commitments and the competing interests in standardisation.",
+    "date": "2025-06-18",
+    "status": "published",
+    "order": 2,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Standard essential patents and FRAND licensing"
+    },
+    "seo": {
+      "title": "Standard essential patents and FRAND licensing | Alok Ranjan",
+      "description": "A concise research overview of SEP licensing principles, FRAND commitments and the competing interests in standardisation."
+    },
+    "createdAt": "2025-06-18T00:00:00.000Z"
+  },
+  {
+    "_id": "publication-3",
+    "slug": "ip-mediation-disputes",
+    "title": "Mediation as a route in intellectual property disputes",
+    "category": "Dispute resolution",
+    "description": "Notes on the role of mediation in resolving commercial IP disputes and preserving working relationships.",
+    "date": "2025-03-03",
+    "status": "published",
+    "order": 3,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Mediation as a route in intellectual property disputes"
+    },
+    "seo": {
+      "title": "Mediation as a route in intellectual property disputes | Alok Ranjan",
+      "description": "Notes on the role of mediation in resolving commercial IP disputes and preserving working relationships."
+    },
+    "createdAt": "2025-03-03T00:00:00.000Z"
+  },
+  {
+    "_id": "publication-4",
+    "slug": "ai-accountability-ip",
+    "title": "AI accountability and intellectual property",
+    "category": "AI and IP",
+    "description": "Research observations on accountability, attribution and the allocation of responsibility in AI-assisted creation.",
+    "date": "2024-12-14",
+    "status": "published",
+    "order": 4,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for AI accountability and intellectual property"
+    },
+    "seo": {
+      "title": "AI accountability and intellectual property | Alok Ranjan",
+      "description": "Research observations on accountability, attribution and the allocation of responsibility in AI-assisted creation."
+    },
+    "createdAt": "2024-12-14T00:00:00.000Z"
+  },
+  {
+    "_id": "publication-5",
+    "slug": "trademark-search-beyond-exact",
+    "title": "Trademark search: beyond exact matches",
+    "category": "Trademarks",
+    "description": "A practical overview of phonetic, visual and conceptual similarity in trademark search analysis.",
+    "date": "2024-08-21",
+    "status": "published",
+    "order": 5,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Trademark search: beyond exact matches"
+    },
+    "seo": {
+      "title": "Trademark search: beyond exact matches | Alok Ranjan",
+      "description": "A practical overview of phonetic, visual and conceptual similarity in trademark search analysis."
+    },
+    "createdAt": "2024-08-21T00:00:00.000Z"
+  },
+  {
+    "_id": "publication-6",
+    "slug": "copyright-collaboration",
+    "title": "Copyright ownership in collaborative work",
+    "category": "Copyright",
+    "description": "A short note on authorship, contribution and the importance of clear ownership arrangements.",
+    "date": "2024-04-09",
+    "status": "published",
+    "order": 6,
+    "image": {
+      "url": "/images/publication.svg",
+      "alt": "Abstract editorial illustration for Copyright ownership in collaborative work"
+    },
+    "seo": {
+      "title": "Copyright ownership in collaborative work | Alok Ranjan",
+      "description": "A short note on authorship, contribution and the importance of clear ownership arrangements."
+    },
+    "createdAt": "2024-04-09T00:00:00.000Z"
+  }
+]
