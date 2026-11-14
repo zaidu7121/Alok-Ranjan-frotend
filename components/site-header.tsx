@@ -14,7 +14,7 @@ const links = [
   ["Contact", "/contact"],
 ];
 
-export function SiteHeader({ settings }: { settings: SiteSettings }) {
+export function SiteHeader({}: { settings: SiteSettings }) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -68,3 +68,4 @@ export function SiteHeader({ settings }: { settings: SiteSettings }) {
     </header>
   );
 }
+

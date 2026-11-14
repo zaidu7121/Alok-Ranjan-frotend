@@ -1,15 +1,13 @@
-﻿"use client";
+﻿import { ArrowRight } from "lucide-react";
+"use client";
 import Image from "next/image";
-import Link from "next/link";
-import { motion, useReducedMotion } from "framer-motion";
-import { ArrowRight,Scale,Search,FileText,PenTool,Network,UserRound,BrainCircuit,Handshake } from "lucide-react";
+import { useReducedMotion } from "framer-motion";
 import { Swiper,SwiperSlide } from "swiper/react";
 import { A11y, Keyboard, Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import type { SiteSettings,Expertise,Work,Publication,NewsItem } from "@/types";
 import { ArticleCard,ExpertiseTile,SectionTitle,ViewMore,WorkCard } from "@/components/ui";
-const heroIcons=[Scale,Search,FileText,PenTool,Network,UserRound,BrainCircuit,Handshake];
-export function Hero({settings,expertise}:{settings:SiteSettings;expertise:Expertise[]}) {
+export function Hero({settings}:{settings:SiteSettings;expertise:Expertise[]}) {
  const reduce = useReducedMotion();
 
  const slides = [
@@ -107,6 +105,8 @@ function CarouselSection({title,eyebrow,items,href}:{title:string;eyebrow:string
 }
 export function PublicationsSection({items}:{items:Publication[]}) { return <CarouselSection title="Ideas, analysis and publications" eyebrow="KNOWLEDGE" items={items} href="/publications"/>; }
 export function NewsSection({items}:{items:NewsItem[]}) { return <CarouselSection title="Updates and appearances" eyebrow="NEWS AND MEDIA" items={items} href="/news"/>; }
+
+
 
 
 
