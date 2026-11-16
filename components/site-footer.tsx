@@ -17,7 +17,7 @@ export function SiteFooter({ settings }: { settings: SiteSettings }) {
     },
     {
       label: "YouTube",
-      href: settings.youtube || "https://www.youtube.com/",
+      href: "https://www.youtube.com/",
       Icon: Youtube,
     },
     {
@@ -138,3 +138,4 @@ export function SiteFooter({ settings }: { settings: SiteSettings }) {
     </footer>
   );
 }
+
