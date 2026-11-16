@@ -22,7 +22,7 @@ export function SiteFooter({ settings }: { settings: SiteSettings }) {
     },
     {
       label: "Instagram",
-      href: settings.instagram || "https://www.instagram.com/",
+      href: "https://www.instagram.com/",
       Icon: Instagram,
     },
   ];
@@ -138,4 +138,5 @@ export function SiteFooter({ settings }: { settings: SiteSettings }) {
     </footer>
   );
 }
+
 
