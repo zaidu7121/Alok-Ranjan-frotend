@@ -2,12 +2,19 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import {
+  Menu,
+  X,
+  ChevronDown,
+  Linkedin,
+  Youtube,
+  Instagram,
+} from "lucide-react";
 import type { SiteSettings } from "@/types";
 
 const aboutLinks = [
   ["Firm", "/about"],
-  ["Members", "/about#members"],
+  ["Members", "/members"],
 ];
 
 const mediaLinks = [
@@ -16,9 +23,27 @@ const mediaLinks = [
   ["Published Articles", "/publications"],
 ];
 
-export function SiteHeader({}: { settings: SiteSettings }) {
+export function SiteHeader({ settings }: { settings: SiteSettings }) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const socialLinks = [
+    {
+      label: "LinkedIn",
+      href: settings.linkedin || "https://www.linkedin.com/",
+      Icon: Linkedin,
+    },
+    {
+      label: "YouTube",
+      href: settings.youtube || "https://www.youtube.com/",
+      Icon: Youtube,
+    },
+    {
+      label: "Instagram",
+      href: settings.instagram || "https://www.instagram.com/",
+      Icon: Instagram,
+    },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -49,7 +74,9 @@ export function SiteHeader({}: { settings: SiteSettings }) {
             </button>
             <div className="nav-dropdown-menu">
               {aboutLinks.map(([label, href]) => (
-                <Link key={label} href={href} className="nav-dropdown-link">{label}</Link>
+                <Link key={label} href={href} className="nav-dropdown-link">
+                  {label}
+                </Link>
               ))}
             </div>
           </div>
@@ -60,19 +87,45 @@ export function SiteHeader({}: { settings: SiteSettings }) {
             </button>
             <div className="nav-dropdown-menu">
               {mediaLinks.map(([label, href]) => (
-                <Link key={label} href={href} className="nav-dropdown-link">{label}</Link>
+                <Link key={label} href={href} className="nav-dropdown-link">
+                  {label}
+                </Link>
               ))}
             </div>
           </div>
 
-          <Link href="/contact" className="nav-link career-link">
-            <span>Career Portal</span>
-            <small>For Internships &amp; Jobs</small>
-          </Link>
+          <div className="nav-dropdown">
+            <button type="button" className="nav-link nav-dropdown-trigger">
+              Career Portal <ChevronDown size={13} />
+            </button>
+            <div className="nav-dropdown-menu">
+              <Link href="/contact" className="nav-dropdown-link">
+                For Internships &amp; Jobs
+              </Link>
+            </div>
+          </div>
 
           <Link href="/contact" className="nav-link">Contact</Link>
 
-          <Link href="/contact" className="consult-cta">Consult Now <span aria-hidden="true">↗</span></Link>
+          <div className="header-social-links" aria-label="Social media links">
+            {socialLinks.map(({ label, href, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                title={label}
+                className="header-social-icon"
+              >
+                <Icon size={17} strokeWidth={1.8} />
+              </a>
+            ))}
+          </div>
+
+          <Link href="/contact" className="consult-cta">
+            Consult Now <span aria-hidden="true">↗</span>
+          </Link>
         </nav>
 
         <button
@@ -92,24 +145,50 @@ export function SiteHeader({}: { settings: SiteSettings }) {
           <details className="mobile-nav-group">
             <summary>About <ChevronDown size={15} /></summary>
             {aboutLinks.map(([label, href]) => (
-              <Link key={label} href={href} onClick={() => setOpen(false)}>{label}</Link>
+              <Link key={label} href={href} onClick={() => setOpen(false)}>
+                {label}
+              </Link>
             ))}
           </details>
 
           <details className="mobile-nav-group">
             <summary>News &amp; Media <ChevronDown size={15} /></summary>
             {mediaLinks.map(([label, href]) => (
-              <Link key={label} href={href} onClick={() => setOpen(false)}>{label}</Link>
+              <Link key={label} href={href} onClick={() => setOpen(false)}>
+                {label}
+              </Link>
             ))}
           </details>
 
-          <Link href="/contact" onClick={() => setOpen(false)}>
-            <span>Career Portal</span>
-            <small className="mobile-career-subtitle">For Internships &amp; Jobs</small>
-          </Link>
+          <details className="mobile-nav-group">
+            <summary>Career Portal <ChevronDown size={15} /></summary>
+            <Link href="/contact" onClick={() => setOpen(false)}>
+              For Internships &amp; Jobs
+            </Link>
+          </details>
 
           <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
-          <Link href="/contact" className="mobile-consult-cta" onClick={() => setOpen(false)}>
+
+          <div className="mobile-social-links">
+            {socialLinks.map(({ label, href, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+              >
+                <Icon size={19} />
+                <span>{label}</span>
+              </a>
+            ))}
+          </div>
+
+          <Link
+            href="/contact"
+            className="mobile-consult-cta"
+            onClick={() => setOpen(false)}
+          >
             Consult Now ↗
           </Link>
         </nav>
@@ -117,3 +196,5 @@ export function SiteHeader({}: { settings: SiteSettings }) {
     </header>
   );
 }
+
+

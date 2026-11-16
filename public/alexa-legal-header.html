@@ -3466,7 +3466,7 @@ html, body {
 var R=document.getElementById('alx');if(!R)return;
 var NS='http://www.w3.org/2000/svg',q=function(i){return document.getElementById(i)};
 var f1=q('alx-f1'),sh=q('alx-sh'),tl=q('alx-tl'),du=q('alx-du'),star=q('alx-star'),sp=q('alx-sp'),gl=q('alx-gl'),sg=q('alx-sg');
-var TOTAL=1384,DELAY=350,BIRTH=450,DUR=3800,WSTART=250,WAVE=2600,Q0=-220,Q1=800,TP='M157 360V117H523V483H157V440';
+var loaderMode=new URLSearchParams(location.search).get("loader")==="1";var net=(navigator.connection&&navigator.connection.effectiveType)||"4g";var DUR=loaderMode?(net==="slow-2g"?7000:net==="2g"?6200:net==="3g"?3900:1800):4600;var TOTAL=1384,DELAY=loaderMode?120:350,BIRTH=loaderMode?250:450,WSTART=250,WAVE=2600,Q0=-220,Q1=800,TP='M157 360V117H523V483H157V440';
 var tails=[],P=[],N=48,pi=0,i,COL=['#FFF6D6','#F7DE95','#E8B95A'];
 function mk(len,o,c){var p=document.createElementNS(NS,'path');p.setAttribute('d',TP);p.setAttribute('fill','none');p.setAttribute('stroke',c);p.setAttribute('stroke-width','3');p.setAttribute('opacity',o);tl.appendChild(p);tails.push([p,len]);}
 for(i=0;i<8;i++)mk(26+i*30,.15,'#FFEFC0');
@@ -3477,7 +3477,7 @@ function dust(dt){for(var k=0;k<N;k++){var p=P[k];if(!p.on)continue;p.a+=dt;if(p
 function pos(s){if(s<=243)return[157,360-s,0,-1];if(s<=609)return[s-86,117,1,0];if(s<=975)return[523,s-492,0,1];if(s<=1341)return[1498-s,483,-1,0];return[157,1824-s,0,-1];}
 function cl(v){return v<0?0:v>1?1:v;}
 function es(u){return .5-.5*Math.cos(Math.PI*u);}
-function ez(u){return .35*u+.65*es(u);}
+function ez(u){return .15*u+.85*es(u);}
 function eo(u){return 1-Math.pow(1-u,3);}
 function setTails(s,f){for(var k=0;k<tails.length;k++){var st=Math.max(0,s-tails[k][1]*f);tails[k][0].style.strokeDasharray='0 '+st.toFixed(1)+' '+(s-st).toFixed(1)+' 9999';}}
 function setSheen(v,w,o){var a=v-w,b=v+w;sg.setAttribute('x1',(.8944*a).toFixed(1));sg.setAttribute('y1',(-.4472*a).toFixed(1));sg.setAttribute('x2',(.8944*b).toFixed(1));sg.setAttribute('y2',(-.4472*b).toFixed(1));sh.setAttribute('opacity',o);}
@@ -3517,11 +3517,12 @@ if(ic>=0){var ph=ic%8000;if(ph<3000){var z=ph/3000;setSheen(-190+730*es(z),75,(.
 dust(dt);
 }
 function play(){cancelAnimationFrame(raf);reset();t0=last=performance.now();raf=requestAnimationFrame(tick);}
-function loop(){play();setTimeout(loop,11000);}
+function loop(){play();setTimeout(loop,loaderMode?Math.max(DUR+1500,4500):11000);}
 q('alx-rp').onclick=play;q('alx-st').onclick=play;
 loop();
 })();
 </script></div></body></html>
+
 
 
 
